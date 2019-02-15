@@ -1,1 +1,20 @@
-/* CSS Here we come */
+.head1 {
+    background: #4aaaa5;
+    width: 15%;
+    padding:15px;
+    color: #ffffff;
+}
+
+
+.head2 {
+    color: #4aaaa5;
+}
+
+ul {
+    float: right;
+}
+
+
+
+
+
