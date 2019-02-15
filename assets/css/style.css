@@ -1,29 +1,34 @@
 .head1 {
     background: #4aaaa5;
-    width: 25%;
-    padding:20px;
-    padding-right: 0px;
+    width: 18%;
+    padding: 20px;
     font-family: Georgia, Times, Times New Roman, serif;
     color: #ffffff;
 }
 .head2 {
     color: #4aaaa5;
-    padding: 20px;
+    padding: 15px;
     font-family: Georgia, Times, Times New Roman, serif;
+    background: #cccccc;
 }
 .links {
     float: right;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 main {
-    background: #777777;
-}
-aside {
-    width: 20px;
-    height: 20px;
+    border: #666666;
+    width: 100%;
 }
 .para1 {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    float: none;
+    background: #cccccc;
+    width: 50%;
+    text-align: center;
+}
+img {
+    width: 150px;
+    background-color: #cccccc;
 }
 
 
