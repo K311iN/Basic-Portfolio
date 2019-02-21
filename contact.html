@@ -1,58 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Second-Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
 
-        <header>
-                <h3>Kellin Baldenegro</h3>
-        </header>
-              
-        <nav>
-             <ul>
-                <li><a href="C:\Users\Music\Basic-Folder\index.html">About</a></li>
-                <li><a href="C:\Users\Music\Basic-Folder\portfolio.html">Portfolio</a></li>
-                <li><a href="C:\Users\Music\Basic-Folder\contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Kellin Baldenegro</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        <main>
-            <header>
-                <h4>Contact</h4>
-            </header>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-            <hr>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-            <section>
-                <form>
-                    Name:
-                    <input type="text" name="username" size="51">
-                    <br><br>
-                    E-mail:
-                    <input type="text" name="email" size="51">
-                </form>
-            </section>
+    </section>
 
-            <section>
-                <form>
-                    <h5>Message</h5>
-                    <textarea name="message"></textarea>
-                </form>
-                        
-                <input type="submit">
-            </section>
+  </div>
 
-        
-   
-
-    
-
-
-        </main>
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
 
 </html>
